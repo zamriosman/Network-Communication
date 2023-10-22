@@ -19,3 +19,24 @@ TCP, which stands for "Transmission Control Protocol," is one of the core protoc
 8. **Connection Termination:** TCP gracefully terminates connections using a four-way handshake (FIN, ACK, FIN-ACK, ACK) to release the resources associated with the connection.
 
 TCP is widely used for applications and services where data integrity, reliability, and sequencing are critical. It is commonly used for web browsing (HTTP), file transfer (FTP), email (SMTP, IMAP), remote terminal access (SSH), and many other network services where ensuring that data is accurately and completely transmitted is essential.
+
+## Transport Layer Security (TLS)
+TLS, or Transport Layer Security, is a cryptographic protocol that provides secure communication over a computer network, such as the Internet. TLS is the successor to SSL (Secure Sockets Layer) and is commonly used to establish secure connections between a client (e.g., a web browser) and a server (e.g., a web server). It ensures the privacy and integrity of data during transmission by encrypting the data and verifying the identity of the communicating parties.
+
+Key features and functions of TLS include:
+
+1. **Data Encryption:** TLS encrypts data exchanged between the client and server, making it unreadable to unauthorized parties. This encryption ensures the confidentiality of the transmitted information.
+
+2. **Data Integrity:** TLS includes mechanisms to verify the integrity of data during transmission. It uses message authentication codes (MACs) to detect any tampering or modifications to the data.
+
+3. **Authentication:** TLS enables the client and server to verify each other's identities. This authentication is typically achieved using digital certificates. Clients can confirm that they are connecting to a legitimate server, and servers can identify connecting clients.
+
+4. **Forward Secrecy:** TLS supports forward secrecy, meaning that even if an attacker gains access to the server's private key in the future, they cannot decrypt past communication sessions. This is achieved through the use of ephemeral (short-lived) key exchanges.
+
+5. **Version Flexibility:** TLS allows for different versions to be negotiated, accommodating both older and newer implementations for compatibility.
+
+6. **Cipher Suites:** TLS supports various cipher suites, which are combinations of encryption and authentication algorithms. Clients and servers negotiate to select the most secure and appropriate cipher suite for their connection.
+
+7. **Handshake Protocol:** TLS uses a handshake protocol to establish the encryption parameters and agree on the session keys used for encryption and authentication. This protocol includes steps such as key exchange and certificate exchange.
+
+TLS is widely used to secure various Internet services and applications, including web browsing (HTTPS), email (SMTPS, POP3S, IMAPS), VPNs, and more. Its adoption is essential for protecting sensitive data, such as login credentials, payment information, and personal communication, from eavesdropping and unauthorized access. It plays a crucial role in ensuring the security and privacy of online interactions.
