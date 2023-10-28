@@ -1,5 +1,4 @@
 # DNS: a distributed, hierarchical database
-![Uploading image.png…]()
 
 ---
 
