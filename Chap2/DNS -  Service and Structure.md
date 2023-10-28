@@ -1,5 +1,5 @@
 # DNS: Service and Structure
-
+---
 **[Slide 1: Title]**
 *"DNS: Services, Structure"*
 
@@ -53,4 +53,3 @@
 
 ---
 
-You can adapt and enhance this script for your YouTube video. Adding visual aids and animations would also help convey the information effectively.
