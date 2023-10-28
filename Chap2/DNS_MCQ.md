@@ -1,7 +1,5 @@
 # DNS: Sample of MCQ Question
 
-To make the multiple-choice questions readable on GitHub, you can format them using Markdown. Here's how you can present the previous MCQ questions with answers in a Markdown format:
-
 1. What does DNS stand for?
    - [ ] A) Domain Name Service
    - [ ] B) Digital Network System
@@ -37,4 +35,3 @@ To make the multiple-choice questions readable on GitHub, you can format them us
    - [ ] D) It provides authoritative DNS records for specific domains.
    *Answer: C*
 
-You can simply copy and paste this Markdown into your GitHub repository to display the MCQ questions and answers in a readable format.
