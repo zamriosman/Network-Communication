@@ -1,5 +1,4 @@
-# DNS: a distributed, hierarchical database<img width="638" alt="image" src="https://github.com/zamriosman/Network-Communication/assets/141692030/24c07dc8-db4c-4cb6-a6bb-564dfad64e89">
-
+# DNS: a distributed, hierarchical database
 
 ---
 
